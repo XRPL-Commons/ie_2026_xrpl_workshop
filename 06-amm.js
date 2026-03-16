@@ -83,7 +83,7 @@ async function main() {
       issuer: issuer.classicAddress,
       value: "1000",
     },
-    Amount2: xrpToDrops("500"), // XRP side
+    Amount2: xrpToDrops("50"), // XRP side
     TradingFee: 500, // 0.5% fee (in basis points, max 1000 = 1%)
   };
 
@@ -127,7 +127,7 @@ async function main() {
       issuer: issuer.classicAddress,
     },
     Asset2: { currency: "XRP" },
-    Amount: xrpToDrops("100"), // deposit 100 XRP
+    Amount: xrpToDrops("10"), // deposit 10 XRP
     Flags: 0x00080000, // tfSingleAsset
   };
 
@@ -151,7 +151,7 @@ async function main() {
       issuer: issuer.classicAddress,
     },
     Asset2: { currency: "XRP" },
-    Amount: xrpToDrops("50"), // withdraw 50 XRP
+    Amount: xrpToDrops("5"), // withdraw 5 XRP
     Flags: 0x00080000, // tfSingleAsset
   };
 
