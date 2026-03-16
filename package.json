@@ -1,0 +1,17 @@
+{
+  "name": "xrpl-workshop-ie-madrid-2026",
+  "version": "1.0.0",
+  "description": "XRPL Workshop - IE Madrid 2026",
+  "type": "module",
+  "scripts": {
+    "wallet": "node 01-create-wallet.js",
+    "xrp-payment": "node 02-send-xrp.js",
+    "iou": "node 03-iou-trustline.js",
+    "mpt": "node 04-mpt.js",
+    "dex": "node 05-dex.js",
+    "amm": "node 06-amm.js"
+  },
+  "dependencies": {
+    "xrpl": "^4.2.0"
+  }
+}
